@@ -1,0 +1,24 @@
+programa
+{
+	caracter opcao
+	
+	funcao inicio()
+	{
+		escreva("Escreva uma letra:\n")
+		leia(opcao)
+		
+		escolha(opcao){
+			caso 'a':
+			escreva("Você digitou a letra a\n")
+			pare
+			
+caso 'b':
+			escreva("Você digitou a letra b\n")
+			pare
+			caso 'c':
+			escreva("Você digitou a letra c\n")
+			caso contrario: 
+			escreva("Letra errada!!!!!!\n")
+		}
+	}
+}
