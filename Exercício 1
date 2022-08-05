@@ -1,0 +1,20 @@
+programa
+{
+	real n1, n2
+	logico x
+	
+	funcao inicio()
+	{
+		escreva("Digite o primeiro numero:\n")
+		leia(n1)
+		escreva("Digite o segundo numero:\n")
+		leia(n2)
+		
+		se (n1 > n2){
+			escreva("O maior número é:" +n1 +"\nO menor é" + n2)
+		}
+		senao{
+			escreva("O maior número é:" + n2 + "\nO número é" +n1) 
+		}
+	}
+}
