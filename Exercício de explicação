@@ -1,0 +1,35 @@
+programa
+{
+	 	
+	
+	funcao inicio()
+	{
+		inteiro opcao
+		
+		escreva("1) Elogio \n")
+		escreva("2) Ofensa \n")
+		escreva("3) Sair \n\n")
+
+		escreva("Escolha uma opção: ")
+		leia(opcao)
+
+		limpa()
+
+		escolha (opcao)	
+		{
+			caso 1: 
+		 		escreva ("Voce é Gato(a)!")
+		 		pare   
+		 	caso 2: 
+		 		escreva ("Voce é um Estranho!")
+		 		pare   
+		 	caso 3: 
+		 		escreva ("Tchau!")
+		 		pare
+		 	caso contrario: 
+		 		escreva ("Opção Inválida !")
+		}
+
+		escreva("\n")
+	}
+}
