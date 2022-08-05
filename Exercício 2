@@ -1,0 +1,21 @@
+real altura1, altura2
+	cadeia nome1, nome2
+	
+	funcao inicio()
+	{
+		escreva("nome1")
+		leia(nome1)
+		escreva("Número da altura1:")
+		leia(altura1)
+		escreva("nome2:")
+		leia(nome2)
+		escreva("Número da altura2:")
+		leia(altura2)
+
+		se(altura1 > altura2){
+			escreva("A pessoa é :" + nome1 + "\nA altura é:" +altura1)			 
+		}
+		senao{
+			escreva("A maior pessoa é:" + nome2 + "\nA altura é:" + altura2)
+		}
+	}
