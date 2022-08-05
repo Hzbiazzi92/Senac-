@@ -1,0 +1,34 @@
+programa
+{
+	caracter menu
+	
+cadeia nome, cpf,endereco
+	
+	funcao inicio()
+	{
+		nome =  "Henrique"
+		cpf =  "3123123123"
+		endereco = "Rua Timelo Rego,390"
+
+          escreva ("Escolha uma opção:\n")
+		escreva ("1.Consultar nome\n")
+		escreva ("2.Consultar CPF\n")
+		escreva ("3.Consultar Endereço\n")
+		leia (menu)
+		limpa()
+
+		escolha(menu){
+			caso'1':
+			escreva("Nome:" + nome +"\n")
+			pare
+			caso '2':
+			escreva("CPF" + cpf +"\n")
+			pare
+			caso '3':
+			escreva("Endereço" + endereco +"\n")
+			pare
+			caso contrario:
+			escreva("Opção incorreta.\n")
+		}
+	}
+}
