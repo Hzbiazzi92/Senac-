@@ -1,0 +1,15 @@
+programa
+{
+	real t1
+	
+	funcao inicio()
+	{
+		escreva("Escreva a temperatura atual:\n")
+		leia(t1)
+		se(t1 >= 25.0){
+		escreva("muito quente")
+				}
+		senao{
+	     escreva("Agradavel")  
+		}
+	}
