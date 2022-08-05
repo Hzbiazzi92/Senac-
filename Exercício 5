@@ -1,0 +1,23 @@
+programa
+{
+	cadeia nome
+	inteiro idade
+	inteiro x
+	
+	funcao inicio()
+	{
+		escreva("Digite o nome:")
+		leia(nome)
+		escreva("Digite a idade:")
+		leia(idade)
+		x = (65 - idade)
+		se ( idade < 18){
+			escreva("Você ainda está muito novo para se aposentar")
+		}
+		senao{
+			escreva ("Falta " + x + "anos para o " + nome + "se aposentar")
+		}
+		
+		
+	}
+}
