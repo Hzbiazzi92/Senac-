@@ -1,0 +1,16 @@
+programa
+{
+	
+	inclua biblioteca Util --> u
+	
+	inteiro contador
+	inteiro sorteio
+	
+	funcao inicio()
+	{
+		para(sorteio = 1; sorteio <= 5; sorteio++ ){
+		contador = u.sorteia (1,50)
+		escreva (contador + "\n")	
+	}
+	}
+}
