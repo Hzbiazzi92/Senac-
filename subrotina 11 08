@@ -1,0 +1,25 @@
+programa
+{
+	
+inteiro c
+	funcao inicio()
+	{
+		
+escreva("Digite um número: \n ")
+		leia(c)
+		
+		calculaCubo(c)
+	}
+	
+	funcao mostraMensagem(){
+	escreva("Estão chegando as férias!!!")
+	escreva("\nContagem regressiva")
+	escreva("\nSono da porra!!!!!!!!")
+	
+	}
+	funcao calculaCubo(inteiro num){
+		escreva("\n Calculo do cubo de um número.\n")
+		inteiro cubo = num * num * num
+		escreva("\n O cubo de " + num + " é " + cubo)
+	} 
+}
