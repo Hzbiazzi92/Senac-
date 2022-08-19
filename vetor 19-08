@@ -1,0 +1,51 @@
+programa
+{
+	inclua biblioteca Util --> u
+	inteiro cont,contA, contB
+	inteiro aux
+	inteiro vetor[10]
+	inteiro inicial = 0, final = 9, meio, busca  
+	logico encontrado = falso
+	
+	funcao inicio()
+	{
+		preencheOrdenaV(vetor)
+		
+		escreva("Digite o valor a pesquisar no vetor: ")
+		leia(busca)
+		//--------------------------------------------
+		//Pesquisa Binária
+		enquanto((inicial <= final) e (nao encontrado)) {
+			meio = (inicial + final) / 2
+			se (vetor[meio] == busca){
+				encontrado = verdadeiro
+			}
+			senao se (vetor[meio] > busca){
+				final = meio - 1
+			}
+			senao{
+				inicial = meio + 1
+			}
+		}
+		se(encontrado == verdadeiro){
+			escreva("Valor encontrado \n ")
+		}
+		senao{
+			escreva("Valor não encontrado \n ")
+		}	
+	}	
+	funcao preencheOrdenaV(inteiro v[]){
+		para(cont = 0; cont <= 9; cont++){
+			vetor[cont] = u.sorteia(1, 50)
+		}	
+		para (contA = 0; cont <= 9; contA++){
+		para (contB = contA + 1; contB <= 9; contB++){
+		se (vetor[contA] > vetor[contB]){
+			aux = vetor[contB]
+			vetor[contB] = vetor[contA]
+			vetor[contA] = aux
+				}
+			}
+		}
+	}
+}
